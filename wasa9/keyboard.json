@@ -10,6 +10,14 @@
     "matrix_pins": {
         "cols": ["D1", "D4", "D0"],
         "rows": ["F4", "F5", "F6"]
+	},
+	"encoder": {
+        "rotary": [
+            {
+				"pin_a": "B1",
+				"pin_b": "F7"
+			}
+	    ]
     },
     "url": "https://github.com/yourusername/wasa9_3x3",
     "usb": {
@@ -19,11 +27,6 @@
     },
 	"features": {
 		"extrakey": true
-	},
-	"encoder": {
-        "rotary": [
-            {"pin_a": "D7", "pin_b": "B1"},
-        ]
 	},
     "layouts": {
         "LAYOUT_3x3": {
